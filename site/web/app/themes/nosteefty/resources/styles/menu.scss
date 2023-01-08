@@ -1,0 +1,113 @@
+
+// css header other pages than home
+.page .header-pages {
+  nav ul.nav li .sub-menu {
+    @apply bg-greymenu p-0;
+
+    li {
+      background-color: inherit;
+    }
+
+    li:hover {
+      @apply bg-greymenuhover;
+    }
+  }
+}
+
+.home ul.sub-menu {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.header-pages nav ul.nav li .sub-menu {
+  background-color: #3e4435;
+}
+
+.menu-menu-container {
+  @apply w-full;
+
+  box-shadow: 3px 8px 6px rgba(0, 0, 0, 0.2);
+
+  ul#menu-menu {
+    li {
+      margin-bottom: 1rem;
+    }
+
+    .sub-menu {
+      margin-left: 1rem;
+    }
+
+    li>a:not(:last-child)::after {
+      content: " ▾";
+    }
+
+  }
+
+}
+
+@screen xl {
+
+  .menu-menu-container {
+    box-shadow: none;
+
+    ul#menu-menu {
+
+      li {
+        margin-bottom: 0;
+
+        a {
+
+          @apply hover:text-gray-200;
+        }
+      }
+
+      .sub-menu {
+        margin-left: 0;
+        display: none;
+        position: absolute;
+        top: 1.5rem;
+        left: 0;
+        z-index: 99999;
+        visibility: hidden;
+        opacity: 0;
+        // min-width: 15rem;
+        // max-width: 25rem;
+        width: 30rem;
+        transition: all 0.5s ease;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+        padding: 0.5rem 1rem 1rem 1rem;
+
+        li {
+          margin-bottom: 0.5rem;
+        }
+      }
+
+      li:hover>ul,
+      li:focus-within>ul,
+      li ul:hover,
+      li ul:focus {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    li {
+      position: relative;
+      // transition-duration: 0.5s;
+
+      ul li {
+        clear: both;
+        width: 100%;
+      }
+
+      &:focus-within a {
+        outline: none;
+      }
+
+      &:hover,
+      &:focus-within {
+        cursor: pointer;
+      }
+    }
+  }
+}

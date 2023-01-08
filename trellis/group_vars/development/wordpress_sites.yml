@@ -1,0 +1,18 @@
+# Created by trellis-cli vcanary
+# Documentation: https://docs.roots.io/trellis/master/wordpress-sites/
+
+wordpress_sites:
+  imprimasuacamiseta.com.br:
+    site_hosts:
+    - canonical: imprimasuacamiseta.test
+      redirects:
+      - www.imprimasuacamiseta.test
+    local_path: ../site
+    admin_email: admin@imprimasuacamiseta.test
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false

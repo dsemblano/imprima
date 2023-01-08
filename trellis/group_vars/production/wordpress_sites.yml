@@ -1,0 +1,20 @@
+# Created by trellis-cli vcanary
+# Documentation: https://docs.roots.io/trellis/master/wordpress-sites/
+
+wordpress_sites:
+  imprimasuacamiseta.com.br:
+    site_hosts:
+    - canonical: imprimasuacamiseta.com.br
+      redirects:
+      - www.imprimasuacamiseta.com.br
+    local_path: ../site
+    branch: master
+    repo: git@github.com:dsemblano/imprima.git
+    repo_subtree_path: site
+    multisite:
+      enabled: false
+    ssl:
+      enabled: true
+      provider: letsencrypt
+    cache:
+      enabled: false

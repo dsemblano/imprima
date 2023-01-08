@@ -1,0 +1,85 @@
+// single products
+.woocommerce {
+    // main.main.container {
+    //   background-color: white;
+    //   padding: 3em 3em 3em 3em;
+    // }
+  
+    .woocommerce-breadcrumb {
+      display: none;
+    }
+  
+    div.product {
+      padding: 3em 3em 3em 3em;
+      display: inline-block;
+  
+      .flex-viewport {
+        margin-bottom: 1rem;
+      }
+  
+      div.images img {
+        width: auto;
+      }
+  
+      .fswp_installments_price {
+        @apply mt-2 mb-4 text-base;
+      }
+  
+      p.price {
+        margin-bottom: 0.4em;
+      }
+  
+      .woocommerce-product-details__short-description,
+      .posted_in,
+      .woocommerce-tabs .panel,
+      .woocommerce-tabs .panel p,
+      .variations_form {
+        @apply text-base leading-relaxed text-black tracking-wide;
+  
+        font-family: 'Open Sans', sans-serif;
+      }
+  
+      .posted_in {
+        border-top: 1px solid transparent;
+      }
+  
+      div.images {
+        .flex-control-thumbs {
+          margin-top: 3em;
+        }
+      }
+  
+      .up-sells.upsells.products {
+        // @apply border-t border-grey-light ;
+  
+        float: left;
+        width: 100%;
+  
+        h2 {
+          padding-top: 1rem;
+        }
+      }
+  
+      .related.products {
+        float: left;
+      }
+    }
+  
+    ul.products li.product a {
+      // img {
+      //   @extend %hoverimgeffect;
+      // }
+  
+      &:hover img {
+        @extend %hoverimgeffect;
+      }
+    }
+  }
+  
+  // a#lumise-customize-button {
+  //   @apply mt-4;
+  // }
+  
+  .woocommerce-tabs {
+    @apply mb-8 pt-6 border-t border-gray-300;
+  }

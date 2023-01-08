@@ -1,0 +1,101 @@
+// Media Queries
+
+.bg-home {
+    background: url("~@images/768x1024.jpg") no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    .banner {
+      // background-color: orange !important;
+    }
+  
+    .bg-home {
+      background: url("~@images/1920x1080.jpg") no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+  
+  // /* Landscape tablets and medium desktops */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .banner {
+      // background-color: red !important;
+    }
+  
+    // .bg-home {
+    //   background: url("~@images/medium-desktop.jpg");
+    //   background-position: top;
+    // }
+  }
+  
+  // /* Portrait tablets and small desktops */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .banner {
+      // background-color: blue !important;
+    }
+  
+    .bg-home {
+      background: url("~@images/768x1024.jpg");
+      background-position: top;
+    }
+  }
+  
+  // /* Landscape phones and portrait tablets */
+  @media (max-width: 767px) {
+    .banner {
+      // background-color: green !important;
+    }
+  }
+  
+  // /* Portrait phones and smaller */
+  @media (max-width: 480px) {
+    .banner,
+    .row {
+      // background-color: yellow !important;
+    }
+  
+    .cart-collaterals {
+      @apply flex flex-col-reverse;
+    }
+  
+    .bg-home {
+      background: url("~@images/mobile.jpg") center / cover;
+    }
+  }
+  
+  /* ----------- Non-Retina Screens ----------- */
+  @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    main.main {
+      // background-color: gray;
+    }
+  
+    .bg-home {
+      background: url("~@images/1280x800.jpg") center / cover;
+    }
+  }
+  
+  @media (width: 1366px) {
+    .banner {
+      // background-color: orange !important;
+    }
+  
+    .bg-home {
+      background: url("~@images/1366x768.jpg");
+    }
+  
+    // .ysm-search-widget-2 {
+    //   bottom: 3.5em;
+    // }
+  }
+  
+  // /* ----------- Retina Screens ----------- */
+  @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    main.main {
+      // background-color: pink;
+    }
+  }
+  
+  // end Media Queries
+  
