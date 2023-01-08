@@ -6,7 +6,7 @@ wordpress_sites:
     site_hosts:
     - canonical: staging.imprimasuacamiseta.com.br
       redirects:
-      - www.staging.imprimasuacamiseta.com.br
+      # - www.staging.imprimasuacamiseta.com.br
     local_path: ../site
     branch: master
     repo: git@github.com:dsemblano/imprima.git
