@@ -6,7 +6,7 @@ wordpress_sites:
     site_hosts:
     - canonical: staging.imprimasuacamiseta.com.br
       redirects:
-      # - www.staging.imprimasuacamiseta.com.br
+      - www.staging.imprimasuacamiseta.com.br
     local_path: ../site
     branch: master
     repo: git@github.com:dsemblano/imprima.git
@@ -15,7 +15,7 @@ wordpress_sites:
       enabled: false
     ssl:
       enabled: true
-      provider: letsencrypt
+      provider: self-signed
     cache:
       enabled: true
       skip_cache_uri: /wp-admin/|/xmlrpc.php|wp-.*.php|/feed/|index.php|sitemap(_index)?.xml|/store.*|/cart.*|/my-account.*|/checkout.*|/addons.*|/design-editor/*

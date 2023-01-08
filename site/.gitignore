@@ -1,6 +1,12 @@
 # Application
 web/app/plugins/*
 !web/app/plugins/.gitkeep
+!web/app/plugins/lumise/
+!web/app/plugins/loja5-woo-total-express/
+!web/app/plugins/improved-variable-product-attributes/
+!web/app/plugins/woocommerce-bulk-editor/
+!web/app/plugins/price-commander-xforwc/
+!web/app/plugins/woocommerce-advanced-bulk-edit/
 web/app/mu-plugins/*/
 web/app/themes/twentytwentythree/
 web/app/upgrade
