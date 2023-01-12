@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2022-12-21T16:04:34+00:00\n"
-"PO-Revision-Date: 2023-01-12 18:00+0000\n"
+"PO-Revision-Date: 2023-01-12 18:05+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: pt_BR\n"
@@ -40411,7 +40411,7 @@ msgstr "Introduza um endereço diferente"
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-heading-frontend.js:1
 #: packages/woocommerce-blocks/build/cart.js:52
 msgid "Cart totals"
-msgstr "Carrinho totais"
+msgstr "Total carrinho"
 
 #: templates/cart/cart-totals.php:30 templates/cart/cart-totals.php:31
 #: templates/cart/cart.php:33 templates/cart/cart.php:129
@@ -50413,7 +50413,7 @@ msgstr "Calculado durante o checkout"
 #: packages/woocommerce-blocks/build/cart-blocks/proceed-to-checkout-frontend.js:1
 #: packages/woocommerce-blocks/build/cart.js:46
 msgid "Proceed to Checkout"
-msgstr "Continuar para Checkout"
+msgstr "Ir para o checkout"
 
 #: packages/woocommerce-blocks/build/cart-frontend.js:3
 #: packages/woocommerce-blocks/build/cart.js:46
