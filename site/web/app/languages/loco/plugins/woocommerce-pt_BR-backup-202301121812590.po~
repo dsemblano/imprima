@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2022-12-21T16:04:34+00:00\n"
-"PO-Revision-Date: 2023-01-12 18:12+0000\n"
+"PO-Revision-Date: 2023-01-12 18:10+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: pt_BR\n"
@@ -32026,7 +32026,7 @@ msgstr "Casa"
 
 #: includes/wc-template-functions.php:2360
 msgid "Place order"
-msgstr "Finalizar compra"
+msgstr "Colocar a ordem"
 
 #: includes/wc-template-functions.php:2843
 msgid "Update country / region"
