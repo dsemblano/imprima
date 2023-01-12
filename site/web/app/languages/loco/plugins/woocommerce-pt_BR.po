@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2022-12-21T16:04:34+00:00\n"
-"PO-Revision-Date: 2023-01-12 18:05+0000\n"
+"PO-Revision-Date: 2023-01-12 18:06+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: pt_BR\n"
@@ -47997,7 +47997,7 @@ msgstr "Guias"
 #: packages/woocommerce-blocks/build/checkout-blocks/terms-frontend.js:1
 #: packages/woocommerce-blocks/build/checkout.js:17
 msgid "Place Order"
-msgstr "Colocar A Ordem"
+msgstr "Finalizar compra"
 
 #: packages/woocommerce-blocks/assets/js/base/context/providers/add-to-cart-form/form-state/index.js:246
 #: packages/woocommerce-blocks/assets/js/base/context/providers/add-to-cart-form/form/submit/index.js:106
