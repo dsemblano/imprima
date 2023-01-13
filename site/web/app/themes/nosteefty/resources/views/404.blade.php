@@ -5,9 +5,11 @@
 
   @if (! have_posts())
     <x-alert type="warning">
-      {!! __('Sorry, but the page you are trying to view does not exist.', 'sage') !!}
+      <h2 class="text-2xl text-center p-8">
+        {!! __('Erro 404 - A página não existe!', 'sage') !!}
+      </h2>
     </x-alert>
 
-    {!! get_search_form(false) !!}
+    {{-- {!! get_search_form(false) !!} --}}
   @endif
 @endsection
