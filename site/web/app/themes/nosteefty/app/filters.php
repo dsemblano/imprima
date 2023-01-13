@@ -31,11 +31,10 @@ remove_action('admin_print_styles', 'print_emoji_styles');
 remove_action('wp_head', 'wp_generator');
 
 // removing WP version from RSS
-function remove_wp_version_rss()
-{
-    return '';
-}
-add_filter('the_generator', 'remove_wp_version_rss');
+
+// add_filter('the_generator', function () {
+//     return '';
+// });
 
 // function add_additional_class_on_li($classes, $item, $args) {
 //     if(isset($args->add_li_class)) {
