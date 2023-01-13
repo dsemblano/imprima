@@ -1,4 +1,4 @@
-<footer class="content-info md:mt-20">
+<footer class="content-info md:mt-20 py-">
   <div class="footer-up container leading-relaxed text-base flex flex-col md:flex-row w-full justify-between">
     <nav class="w-full container">
       @if (has_nav_menu('secondaryfooter1_navigation'))
@@ -12,11 +12,10 @@
     </nav>
       @php dynamic_sidebar('sidebar-footerup') @endphp
   </div>
-
   <div class="footer-down bg-black w-full py-6 mt-4 text-white">
     <div class="container flex flex-col md:flex-row items-center justify-between">
       @include('partials/snippets.logo')
-      <span>
+      <span class="copyright container py-6 text-center">
         <a href="https://api.whatsapp.com/send?phone=5541991181577" title="Mande sua mensagem via Whatsapp para NØS!"
         target="_blank" class="inline-block whatslink" aria-label="Whatsapp mensagem">Whatsapp: (41) 99171-6676</a>
          - CNPJ: 19.312.401/0001-0541 © Todos os direitos reservados. {{ date('Y') }}
