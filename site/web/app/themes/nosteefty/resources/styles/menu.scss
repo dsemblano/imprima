@@ -1,18 +1,21 @@
 
 // css header other pages than home
-.page .header-pages {
-  nav ul.nav li .sub-menu {
-    @apply bg-greymenu p-0;
-
-    li {
-      background-color: inherit;
-    }
-
-    li:hover {
-      @apply bg-greymenuhover;
+.page,
+.single-product {
+  .header-pages {
+    ul.sub-menu {
+      @apply bg-greymenu p-0;
+  
+      li {
+        background-color: inherit;
+      }
+  
+      li:hover {
+        @apply bg-greymenuhover;
+      }
     }
   }
-}
+} 
 
 .home .nav-primary ul.sub-menu {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
