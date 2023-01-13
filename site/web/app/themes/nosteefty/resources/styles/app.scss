@@ -212,6 +212,10 @@ h2 {
         //   }
         // }
       }
+
+      .brand img {
+        width: 8rem;
+      }
   
       .widget_text {
         @apply text-center text-white tracking-wider py-2;
