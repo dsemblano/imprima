@@ -1,6 +1,6 @@
 
 // css header other pages than home
-.page .header-pages {
+.nav-primary .page .header-pages {
   nav ul.nav li .sub-menu {
     @apply bg-greymenu p-0;
 
@@ -14,13 +14,13 @@
   }
 }
 
-.home ul.sub-menu {
+.home .nav-primary ul.sub-menu {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
-.header-pages nav ul.nav li .sub-menu {
-  background-color: #3e4435;
-}
+// .header-pages nav ul.nav li .sub-menu {
+//   background-color: #3e4435;
+// }
 
 .menu-menu-container {
   @apply w-full;
