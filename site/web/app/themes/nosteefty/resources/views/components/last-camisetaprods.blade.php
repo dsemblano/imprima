@@ -8,7 +8,7 @@
         'category' => 'camiseta-e-coisa-seria'
     ));
 @endphp
-<div class="mx-auto gap-8 grid grid-cols-2 md:grid-cols-3">
+<div class="gap-8 grid grid-cols-2 md:grid-cols-3 container">
     @foreach ($parent_category as $img_cat)
     <a class="linkimgprod"
         href="{!! $img_cat->get_permalink() !!}">

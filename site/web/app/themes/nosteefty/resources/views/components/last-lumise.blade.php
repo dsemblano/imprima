@@ -9,7 +9,7 @@
     ));
 @endphp
 
-<div class="mx-auto gap-8 grid grid-cols-2 md:grid-cols-4">
+<div class="gap-8 grid grid-cols-2 md:grid-cols-4 container">
 @foreach ($destaques_produtos as $productimg)
     <a class="linkimgprod lastlumise lg:p-10 overflow-hidden" href="{!! $productimg->get_permalink() !!}">
         @php

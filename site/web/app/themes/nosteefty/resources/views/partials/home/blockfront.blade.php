@@ -53,7 +53,7 @@
         <div class="page-header pb-14">
              <h2 class="md:text-5xl">Serviços</h2>
         </div>
-        <ul class="container flex flex-wrap justify-between">
+        <ul class="flex flex-wrap justify-between">
             <li class=" ">
             <a href="/servicos/impressao-digital-avulsa-em-algodao">
                 <div class="img-container" role="button">
