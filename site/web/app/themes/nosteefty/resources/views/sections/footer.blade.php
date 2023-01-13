@@ -1,11 +1,11 @@
 <footer class="content-info md:mt-20">
   <div class="footer-up container leading-relaxed text-base flex flex-col md:flex-row w-full justify-between">
-    <nav class="w-full">
+    <nav class="w-full container">
       @if (has_nav_menu('secondaryfooter1_navigation'))
       {!! wp_nav_menu(['theme_location' => 'secondaryfooter1_navigation', 'menu_class' => 'nav']) !!}
       @endif
     </nav>
-    <nav class="w-full">
+    <nav class="w-full container">
       @if (has_nav_menu('secondaryfooter2_navigation'))
       {!! wp_nav_menu(['theme_location' => 'secondaryfooter2_navigation', 'menu_class' => 'nav']) !!}
       @endif
