@@ -35,7 +35,7 @@
 @include('partials/snippets.ribbon-algodao')
 
 <section id="products-nosteefty" class="bg-gray-100 py-14">
-    <div class="container ">
+    <div class="container">
         <div class="page-header pb-14">
             <h2 class="md:text-5xl">Camiseta É Coisa Séria</h2>
             <a href="/colecao-coisa-seria">
