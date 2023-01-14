@@ -99,21 +99,28 @@ h2 {
 
   .single_add_to_cart_button,
   body.woocommerce .products .product .lumise-list-button,
+  .woocommerce a.button.alt,
   .single-product .product .single_add_to_cart_button.button {
     &:hover {
       @apply bg-greennos;
     }
   }
 
+  // .woocommerce a.button.alt {
+  //   background-color: #1ebe85;
+  // }
+
   // Woocommerce buttons
   .btn-estudio,
   .wp-block-button a,
+  .woocommerce a.button.alt,
   .single_add_to_cart_button,
   .single-product .product .single_add_to_cart_button.button,
   body.woocommerce .products .product .lumise-list-button,
   .woocommerce .product .add_to_cart_button.button,
+  .checkout-button,
   .btn-estudio-products {
-    @apply bg-greennos p-4 rounded-md text-white mb-2 mr-3 no-underline;
+    @apply bg-greennos p-4 rounded-md text-white mb-2 mr-3 no-underline w-auto;
 
     font-family: "clearsans_bold", sans-serif;
     @extend %hoverimgeffect;
