@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2022-12-21T16:04:34+00:00\n"
-"PO-Revision-Date: 2023-01-14 19:46+0000\n"
+"PO-Revision-Date: 2023-01-14 19:45+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: pt_BR\n"
@@ -31281,7 +31281,7 @@ msgstr "Tipo De Pós-Conta"
 #: includes/class-wc-countries.php:1182
 #: src/Admin/API/Reports/Customers/Controller.php:616
 msgid "Postal Code"
-msgstr "CEP"
+msgstr "Código Postal"
 
 #: includes/class-wc-countries.php:926
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/AbstractAddressSchema.php:61
@@ -31289,11 +31289,11 @@ msgstr "CEP"
 #: assets/client/admin/chunks/analytics-report-customers.js:1
 #: packages/woocommerce-blocks/build/wc-settings.js:1
 msgid "Postal code"
-msgstr "CEP"
+msgstr "Código Postal"
 
 #: packages/woocommerce-blocks/build/wc-settings.js:1
 msgid "Postal code (optional)"
-msgstr "CEP (opcional)"
+msgstr "Código Postal (opcional)"
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:763
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:826
@@ -31307,12 +31307,12 @@ msgstr "CEP (opcional)"
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:226
 #: src/Admin/API/Reports/Customers/Controller.php:270
 msgid "Postal code."
-msgstr "CEP"
+msgstr "Código Postal."
 
 #: includes/class-wc-countries.php:843 includes/class-wc-countries.php:1284
 #: includes/class-wc-countries.php:1294 includes/class-wc-countries.php:1494
 msgid "Postcode"
-msgstr "CEP"
+msgstr "Código postal"
 
 #: includes/admin/class-wc-admin-profile.php:70
 #: includes/admin/class-wc-admin-profile.php:130
@@ -31325,15 +31325,15 @@ msgstr "CEP"
 #: includes/class-wc-countries.php:748
 #: templates/cart/shipping-calculator.php:87
 msgid "Postcode / ZIP"
-msgstr "CEP"
+msgstr "Código postal / ZIP"
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:650
 msgid "Postcode / ZIP."
-msgstr "CEP"
+msgstr "Código postal / ZIP."
 
 #: templates/cart/shipping-calculator.php:86
 msgid "Postcode / ZIP:"
-msgstr "CEP:"
+msgstr "Código postal / ZIP:"
 
 #: includes/admin/settings/views/html-settings-tax.php:34
 msgid ""
@@ -31341,9 +31341,10 @@ msgid ""
 "to apply to all areas. Wildcards (*) and ranges for numeric postcodes (e.g. "
 "12345...12350) can also be used."
 msgstr ""
-"CEP para esta regra. Ponto-e-vírgula (;) separar vários valores. Deixe em "
-"branco para aplicar a todas as áreas. Os caracteres curinga (*) e intervalos "
-"numéricos códigos postais (por exemplo, 12345...12350) também pode ser usado."
+"Código postal para esta regra. Ponto-e-vírgula (;) separar vários valores. "
+"Deixe em branco para aplicar a todas as áreas. Os caracteres curinga (*) e "
+"intervalos numéricos códigos postais (por exemplo, 12345...12350) também "
+"pode ser usado."
 
 #: includes/rest-api/Controllers/Version3/class-wc-rest-taxes-controller.php:95
 msgid ""
@@ -51643,7 +51644,7 @@ msgstr "Zimbábue"
 
 #: includes/class-wc-countries.php:1481
 msgid "ZIP Code"
-msgstr "CEP"
+msgstr "Código postal"
 
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/CartShippingRateSchema.php:74
 msgid "Zip or Postcode of the address being shipped to."
