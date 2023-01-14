@@ -1,7 +1,7 @@
 <section class="bg-home blockhome blockhome-1 bg-transparent h-screen flex flex-col justify-end">
     {{-- background wallpaper --}}
     <div class="w-full glass py-4">
-        <div class="container mx-auto gap-4 grid grid-cols-2 md:grid-cols-4">
+        <div class="container lg:px-24 mx-auto gap-4 grid grid-cols-2 md:grid-cols-4">
             <div class="flex items-center py-2 md:py-0 leading-tight w-full">
             <img src="@asset('images/semlimites.png')" alt="ícone sem limite cores" width="118" height="45" />
             {{-- <span class="ml-4 text-xs md:text-lg text-pureblack"><p>SEM</p><p>limite de cores</p></span> --}}
@@ -23,7 +23,7 @@
 </section>
 
 <section id="products-customize" class="bg-white py-14">
-    <div class="container ">
+    <div class="container lg:px-24 ">
         <div class="page-header pb-14">
             <h2 class="md:text-5xl">Crie e Customize</h2>
             <p class="md:text-2xl mb-6 text-center">todos os produtos</p>
@@ -35,7 +35,7 @@
 @include('partials/snippets.ribbon-algodao')
 
 <section id="products-nosteefty" class="bg-gray-100 py-14">
-    <div class="container">
+    <div class="container lg:px-24">
         <div class="page-header pb-14">
             <h2 class="md:text-5xl">Camiseta É Coisa Séria</h2>
             <a href="/colecao-coisa-seria">
@@ -49,7 +49,7 @@
 
 
 <section id="servicos" class="bg-white py-14">
-    <div class="container ">
+    <div class="container lg:px-24 ">
         <div class="page-header pb-14">
              <h2 class="md:text-5xl">Serviços</h2>
         </div>

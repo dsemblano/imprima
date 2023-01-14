@@ -4,7 +4,7 @@
 
 @include('sections.header')
 @php $current_page = basename(get_permalink()) @endphp
-<main id="main" class="main{{ ! is_front_page() ? " $current_page container" : '' }}">
+<main id="main" class="main{{ ! is_front_page() ? " $current_page container mx-auto lg:px-24" : '' }}">
   @yield('content')
 </main>
 

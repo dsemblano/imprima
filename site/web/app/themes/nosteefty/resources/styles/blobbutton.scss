@@ -9,7 +9,7 @@
   $borderW: 2px;
   
 .blob-btn {
-@apply text-white;
+@apply text-white text-xs lg:text-sm p-3 lg:p-5;
 
 // variables
 $numOfBlobs: 4;
@@ -18,12 +18,10 @@ $buttoncolor: red;
 
 z-index: 1;
 position: relative;
-padding: 20px 46px;
 margin-bottom: $borderradius;
 text-align: center;
 text-transform: uppercase;  
 // color: $cyan;
-font-size: 16px;
 font-weight: bold;
 background-color: transparent;
 outline: none;
