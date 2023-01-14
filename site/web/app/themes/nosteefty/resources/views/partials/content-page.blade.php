@@ -1,9 +1,5 @@
-@if (! is_page('cart'))
-    <article class="prose md:prose-lg lg:prose-xl mx-auto">        
-@else
-    <article class="mx-auto">    
-@endif
 
+<article class="prose md:prose-lg lg:prose-xl mx-auto max-w-none">
     @php(the_content())
 </article>
 
