@@ -30,27 +30,6 @@ remove_action('admin_print_styles', 'print_emoji_styles');
 //removing WP version
 remove_action('wp_head', 'wp_generator');
 
-// removing WP version from RSS
-
-// add_filter('the_generator', function () {
-//     return '';
-// });
-
-// function add_additional_class_on_li($classes, $item, $args) {
-//     if(isset($args->add_li_class)) {
-//         $classes[] = $args->add_li_class;
-//     }
-//     return $classes;
-// }
-// add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
-
-// add_filter('nav_menu_css_class', function($classes, $item, $args) {
-//     if(isset($args->add_li_class)) {
-//         $classes[] = $args->add_li_class;
-//     }
-//     return $classes;
-// });
-
 add_filter('script_loader_tag', function ($url) {
     if ( is_user_logged_in() ) return $url; //don't break WP Admin
     if ( FALSE === strpos( $url, '.js' ) ) return $url;
@@ -73,6 +52,34 @@ add_filter( 'woocommerce_product_single_add_to_cart_text', function ($text) {
     return 'Comprar';
 });
 
-add_filter( 'woocommerce_product_add_to_cart_text', function ($text) {
-    return 'Compre agora';
+// add_filter( 'woocommerce_product_add_to_cart_text', function ($text) {
+//     return 'Compre agora';
+// });
+
+add_filter( 'woocommerce_terms_is_checked_default', '__return_true' );
+
+// For billing email and phone - Make them not required
+add_filter( 'woocommerce_billing_fields', function ($billing_fields) {
+// Only on checkout page
+    if( ! is_checkout() ) {
+        return $billing_fields;
+    }
+    $billing_fields['billing_cellphone']['required'] = true;   
+    // $billing_fields['billing_email']['required'] = false;
+    $billing_fields['billing_address_2']['required'] = false;
+    return $billing_fields;
+}, 20, 1 );
+
+add_filter( 'woocommerce_checkout_fields', function ($fields) {
+    unset( $fields['billing']['billing_phone'] );
+	return $fields;
+});
+
+// Defer js
+add_filter('script_loader_tag', function ($url) {
+    if ( is_user_logged_in() ) return $url; //don't break WP Admin
+    if ( FALSE === strpos( $url, '.js' ) ) return $url;
+    if ( strpos( $url, 'jquery.min.js' ) ) return $url;
+    if ( strpos( $url, 'jquery.js' ) ) return $url;
+    return str_replace( ' src', ' defer src', $url );
 });
