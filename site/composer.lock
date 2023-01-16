@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "369470e5193b5e3a9648e28d9de25b16",
+    "content-hash": "d3e708898cd64a05bd040c663e4594aa",
     "packages": [
         {
             "name": "blade-ui-kit/blade-icons",
@@ -5154,6 +5154,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woo-cart-abandonment-recovery/"
+        },
+        {
+            "name": "wpackagist-plugin/woo-checkout-field-editor-pro",
+            "version": "1.8.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woo-checkout-field-editor-pro/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1671090526"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woo-checkout-field-editor-pro/"
         },
         {
             "name": "wpackagist-plugin/woo-payment-discounts",
