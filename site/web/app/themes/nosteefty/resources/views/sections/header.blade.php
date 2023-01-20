@@ -9,7 +9,7 @@
 
       <div class="flex flex-wrap md:flex-nowrap justify-between items-center mx-auto">
 
-        <picture class="logos-header order-1 md:order-3 ">
+        <picture id="design-editor" class="logos-header order-1 md:order-3 ">
           @include('partials/snippets.dtglogo')        
         </picture>
   
