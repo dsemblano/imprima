@@ -11,7 +11,7 @@
   $sub_categories = get_categories($args);
 @endphp
 
-<ul class="mx-auto gap-8 grid grid-cols-2 md:grid-cols-4">
+<ul class="mx-auto gap-8 grid grid-cols-1 md:grid-cols-3">
 
 @foreach ($sub_categories as $sub)
 {{-- <h2 class="page-header-allcategories text-center">
