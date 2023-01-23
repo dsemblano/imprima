@@ -94,7 +94,7 @@
 }
 
 .woocommerce-message {
-  @apply text-2xl;
+  @apply text-xs lg:text-2xl;
 
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
