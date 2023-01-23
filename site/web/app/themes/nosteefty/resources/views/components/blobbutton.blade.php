@@ -1,4 +1,4 @@
-<button class="blob-btn mt-4">
+<button class="blob-btn mt-4 shadow-nos text-white text-xs lg:text-sm p-3 lg:p-5">
   {{ $slot }}
   <span class="blob-btn__inner">
     <span class="blob-btn__blobs">

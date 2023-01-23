@@ -15,6 +15,9 @@ module.exports = {
         greymenuhover: '#57604a',
         greydarkest: '#262a31'
       }, // Extend Tailwind's default colors
+      boxShadow: {
+        'nos': '2px 4px 8px 0 rgb(0 0 0 / 20%)',
+      },
     },
   },
   plugins: [
