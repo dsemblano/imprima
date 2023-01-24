@@ -171,3 +171,31 @@ add_action ('wpo_wcpdf_before_billing_address', function ($template_type, $order
       }
     }
   }, 10, 2);
+
+  
+// Remove Cross Sells From Default Position 
+ 
+remove_action( 'woocommerce_cart_collaterals', 'woocommerce_cross_sell_display' );
+ 
+ 
+// ---------------------------------------------
+// Add them back UNDER the Cart Table
+ 
+add_action( 'woocommerce_after_cart_table', 'woocommerce_cross_sell_display' );
+ 
+ 
+// ---------------------------------------------
+// Display Cross Sells on 3 columns instead of default 4
+ 
+add_filter( 'woocommerce_cross_sells_columns', function ($columns) {
+    return 3;
+});
+ 
+
+ 
+// ---------------------------------------------
+// Display Only 3 Cross Sells instead of default 4
+ 
+add_filter( 'woocommerce_cross_sells_total', function ($columns) {
+    return 3;
+});

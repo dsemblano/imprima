@@ -192,6 +192,9 @@
       @php do_action( 'woocommerce_after_cart_contents' ); @endphp
     </tbody>
   </table>
+
+  {{-- aqui  --}}
+
   @php do_action( 'woocommerce_after_cart_table' ); @endphp
 </form>
 

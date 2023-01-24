@@ -6,6 +6,7 @@
 @import './arrowcdtop.scss';
 @import './mediaqueries.scss';
 @import './blobbutton.scss';
+@import './cart.scss';
 
 //Font Face
 @font-face {
@@ -239,42 +240,41 @@ h2 {
 
   $bg-grey-darkest: #262a31;
 
-  // Cart
-.woocommerce {
-  a.button {
-    @apply font-thin text-white bg-greydarkest;
-  }
+// .woocommerce {
+//   a.button {
+//     @apply font-thin text-white bg-greydarkest;
+//   }
 
-  $green-nos: #1ebe85;
+//   $green-nos: #1ebe85;
 
-  table.shop_table {
-    border: 1px solid $green-nos;
+//   table.shop_table {
+//     border: 1px solid $green-nos;
 
-    tbody tr td {
-      border-top: 1px solid $green-nos;
-    }
+//     tbody tr td {
+//       border-top: 1px solid $green-nos;
+//     }
 
-    input#coupon_code {
-      border: 1px solid $green-nos;
-      width: auto;
-      text-align: center;
-      padding: 7px 0 8px 0;
-      border-radius: 4px;
-    }
-  }
+//     input#coupon_code {
+//       border: 1px solid $green-nos;
+//       width: auto;
+//       text-align: center;
+//       padding: 7px 0 8px 0;
+//       border-radius: 4px;
+//     }
+//   }
 
-  form .form-row input.input-text {
-    border-style: inset;
-    padding-left: 10px;
-    border-left: 1px solid $green-nos;
-  }
+//   form .form-row input.input-text {
+//     border-style: inset;
+//     padding-left: 10px;
+//     border-left: 1px solid $green-nos;
+//   }
 
-  .quantity .qty {
-    border: 1px solid $green-nos;
-    padding: 5px 0 5px 10px;
-    border-radius: 4px;
-  }
-}
+//   .quantity .qty {
+//     border: 1px solid $green-nos;
+//     padding: 5px 0 5px 10px;
+//     border-radius: 4px;
+//   }
+// }
 
 #calc_shipping_country_field,
 #calc_shipping_state_field,
