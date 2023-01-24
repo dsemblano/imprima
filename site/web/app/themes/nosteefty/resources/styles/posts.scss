@@ -87,7 +87,8 @@
     @apply mb-8 pt-6 border-t border-gray-300;
   }
 
-  .related.products h2 {
+  .related.products h2,
+  .woocommerce div.product .up-sells.upsells.products h2 {
     font-size: 1.5rem;
     /* text-transform: uppercase; */
     margin-bottom: 1rem;
