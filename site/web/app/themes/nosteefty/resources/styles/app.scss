@@ -138,9 +138,10 @@ h2 {
     @extend %hoverimgeffect;
   }
 
-  // .linkimgprod {
-  //   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  // }
+  .linkimgprod {
+    min-height: 15rem;
+    margin-bottom: 2rem;
+  }
 
   // Tawk widget
 .gallery img {
