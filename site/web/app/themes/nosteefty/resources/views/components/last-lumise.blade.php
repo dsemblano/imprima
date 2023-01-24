@@ -11,7 +11,7 @@
 
 <div class="gap-8 grid grid-cols-2 md:grid-cols-4">
 @foreach ($destaques_produtos as $productimg)
-    <a class="linkimgprod lastlumise p-4 pb-8 lg:p-10 overflow-hidden" href="{!! $productimg->get_permalink() !!}">
+    <a class="linkimgprod lastlumise p-4 pb-8 lg:p-10 rounded-xl border-solid border hover:shadow-lg bg-transparent overflow-hidden" href="{!! $productimg->get_permalink() !!}">
         @php
             $imgprod = $productimg->get_image($size = 'produtos', array('class'=>'imgprod w-full'));
         @endphp
