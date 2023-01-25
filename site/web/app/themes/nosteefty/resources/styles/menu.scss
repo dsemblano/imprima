@@ -1,10 +1,11 @@
 
 // css header other pages than home
-.theme-nosteefty {
+.theme-nosteefty,
+.home {
   .header-pages {
     ul.sub-menu {
       // @apply bg-greymenu p-4;
-      @apply bg-black p-4;
+      @apply bg-black;
   
       li {
         background-color: inherit;
@@ -22,11 +23,12 @@
 @media (max-width: 992px) {
   .home .nav-primary {
     #menu-menu {
-      background-color: black;
+      @apply bg-black p-4;
+      
       color: white;
 
       // background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1));
-      padding: 1rem;
+      // padding: 1rem;
     }
   }
 }
@@ -37,7 +39,6 @@
     ul.sub-menu {
       // @apply bg-gradient-to-tr from-black;
       background-color: black;
-      color: white;
       
       // background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1));
     }
@@ -56,6 +57,7 @@
 
     .sub-menu {
       margin-left: 1rem;
+      margin-top: 1rem;
     }
 
     li>a:not(:last-child)::after {

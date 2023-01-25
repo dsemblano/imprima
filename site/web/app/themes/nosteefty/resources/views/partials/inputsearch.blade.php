@@ -13,7 +13,7 @@
         </span>
 
         <input type="search" id="search-navbar"
-            class="block p-2 pl-10 w-full text-gray-900 bg-gray-50  border border-gray-300 sm:text-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            class="block pl-12 w-full text-gray-900 bg-gray-50  border border-gray-300 sm:text-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="{!! esc_attr_x('Busca &hellip;', 'placeholder', 'sage') !!}" value="{{ get_search_query() }}"
             name="s">
     </label>
