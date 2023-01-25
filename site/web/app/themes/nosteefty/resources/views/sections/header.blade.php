@@ -1,7 +1,7 @@
 @if (is_front_page())
     <header class="banner header-home absolute w-full bg-transparent z-50 py-2">
   @else
-    <header class="banner header-pages relative w-full  bg-greydarkest z-50 py-2">
+    <header class="banner header-pages relative w-full  bg-black z-50 py-2">
 @endif
 
   <nav class="nav-primary">
