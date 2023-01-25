@@ -13,10 +13,10 @@
     <a class="linkimgprod"
         href="{!! $img_cat->get_permalink() !!}">
         @php
-        $imgprod = $img_cat->get_image($size = 'produtos', array('class'=>'imgprod w-full rounded-md'));
+        $imgprod = $img_cat->get_image($size = 'produtos', array('class'=>'imgprod w-full rounded-md hover:shadow-lg'));
         @endphp
         {!! $imgprod !!}
-        <h2 class="text-base sm:text-xl mt-3 h-12 text-center">
+        <h2 class="text-base sm:text-xl mt-3 h-12 text-center textsw">
             {!! $img_cat->get_title() !!}
         </h2>
     </a>

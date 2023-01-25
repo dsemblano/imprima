@@ -57,7 +57,7 @@
             <li class=" ">
             <a href="/servicos/impressao-digital-avulsa-em-algodao">
                 <div class="img-container" role="button">
-                <img src="@asset('images/impressaodigital.png')" alt="blusa 1" class="blockhome4-img" width="390" height="505" />
+                <img src="@asset('images/impressaodigital.png')" alt="blusa 1" class="blockhome4-img hover:shadow-lg" width="390" height="505" />
                 {{-- <div class="text-over">
                     <p class="text">Saiba mais</p>
                 </div> --}}
@@ -68,7 +68,7 @@
             <li class=" ">
             <a href="/servicos/outsourcing">
                 <div class="img-container" role="button">
-                <img src="@asset('images/outsourcing.png')" alt="blusa 1" class="blockhome4-img" width="390" height="505" />
+                <img src="@asset('images/outsourcing.png')" alt="blusa 1" class="blockhome4-img hover:shadow-lg" width="390" height="505" />
                 {{-- <div class="text-over">
                     <p>Saiba mais</p>
                 </div> --}}
@@ -79,7 +79,7 @@
             <li class=" ">
             <a href="/servicos/dropshipping">
                 <div class="img-container" role="button">
-                <img src="@asset('images/dropshipping.png')" alt="blusa 1" class="blockhome4-img" width="390" height="505" />
+                <img src="@asset('images/dropshipping.png')" alt="blusa 1" class="blockhome4-img hover:shadow-lg" width="390" height="505" />
                 {{-- <div class="text-over">
                     <p>Saiba mais</p>
                 </div> --}}
