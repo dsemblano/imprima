@@ -10,6 +10,7 @@
   <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <?php echo \Roots\view('partials/gtagbody')->render(); ?>
+    <?php echo \Roots\view('partials/favicon')->render(); ?>
     <?php do_action('get_header'); ?>
 
     <div id="app">
