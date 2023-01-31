@@ -41,29 +41,23 @@
       background-position: top;
     }
   }
-  
-  // /* Landscape phones and portrait tablets */
-  @media (max-width: 767px) {
-    .banner {
-      // background-color: green !important;
-    }
-  }
+
   
   // /* Portrait phones and smaller */
-  @media (max-width: 480px) {
-    .banner,
-    .row {
-      // background-color: yellow !important;
-    }
+  // @media (max-width: 480px) {
+  //   .banner,
+  //   .row {
+  //     // background-color: yellow !important;
+  //   }
   
-    .cart-collaterals {
-      @apply flex flex-col-reverse;
-    }
+  //   .cart-collaterals {
+  //     @apply flex flex-col-reverse;
+  //   }
   
-    .bg-home {
-      background: url("~@images/mobile.jpg") center / cover;
-    }
-  }
+  //   .bg-home {
+  //     background: url("~@images/mobile.jpg") center / cover;
+  //   }
+  // }
   
   /* ----------- Non-Retina Screens ----------- */
   @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -96,6 +90,15 @@
       // background-color: pink;
     }
   }
+
+    // /* Landscape phones and portrait tablets */
+    @media only screen and (max-width: 768px) {
+      .bg-home {
+        background: url("~@images/mobile.jpg") no-repeat;
+        background-size: cover;
+        background-position: 45% center;
+      }
+    }
   
   // end Media Queries
   
