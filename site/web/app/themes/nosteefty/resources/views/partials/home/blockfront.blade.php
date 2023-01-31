@@ -1,7 +1,7 @@
 <section class="bg-home blockhome blockhome-1 h-screen flex flex-col justify-end">
     <div class="wrap h-full flex flex-col-reverse">
         {{-- background wallpaper --}}
-        <div class="w-full glass py-4">
+        <div class="w-full glass py-1 md:py-4">
             <div class="container lg:px-24 mx-auto gap-4 grid grid-cols-2 md:grid-cols-4">
                 <div class="flex items-center py-2 md:py-0 leading-tight w-full">
                 <img src="@asset('images/semlimites.png')" alt="ícone sem limite cores" width="118" height="45" />
