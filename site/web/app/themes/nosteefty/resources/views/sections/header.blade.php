@@ -13,7 +13,7 @@
           @include('partials/snippets.dtglogo')        
         </picture>
   
-        <picture class="logos-header order-2 relative left-10 xl:order-1">
+        <picture class="logos-header order-2 relative left-6 xl:order-1">
           @include('partials/snippets.logo')        
         </picture>
   
