@@ -312,3 +312,12 @@ h2 {
 .prose :where(ul):not(:where([class~="not-prose"] *)) {
   padding-left: 0;
 }
+
+// header
+.brand img {
+  @apply h-11 lg:h-16 xl:h-full;
+}
+
+#dtg {
+  @apply h-20 md:h-28 xl:h-full;
+}
