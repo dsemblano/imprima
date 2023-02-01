@@ -20,7 +20,7 @@
 }
 
 // Menu no mobile
-@media (max-width: 992px) {
+@media (max-width: 1279px) {
   .home .nav-primary {
     #menu-menu {
       @apply bg-black p-4;
@@ -34,7 +34,7 @@
 }
 
 // Menu no desktop
-@media (min-width: 992px) {
+@media (min-width: 1280px) {
   .home .nav-primary {
     ul.sub-menu {
       // @apply bg-gradient-to-tr from-black;

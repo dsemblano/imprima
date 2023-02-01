@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.8",
-    "flowbite": "^1.5.5"
+    "flowbite": "^1.5.5",
+    "tailwindcss-debug-screens": "^2.2.1"
   }
 }

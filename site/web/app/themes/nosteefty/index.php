@@ -7,7 +7,8 @@
     <?php echo \Roots\view('partials/gtaghead')->render(); ?>
   </head>
 
-  <body <?php body_class(); ?>>
+  <!-- <body <?php body_class(); ?>> -->
+  <body <?php (WP_ENV !== 'production') ? body_class('debug-screens') : body_class(''); ?>> 
     <?php wp_body_open(); ?>
     <?php echo \Roots\view('partials/gtagbody')->render(); ?>
     <?php echo \Roots\view('partials/favicon')->render(); ?>
