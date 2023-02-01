@@ -308,3 +308,7 @@ h2 {
 .linkimgprod:hover .textsw {
   text-shadow: 4px 3px 5px #fff, 3px 6px 3px rgba(0,0,0,0.20);
 }
+
+.prose :where(ul):not(:where([class~="not-prose"] *)) {
+  padding-left: 0;
+}
