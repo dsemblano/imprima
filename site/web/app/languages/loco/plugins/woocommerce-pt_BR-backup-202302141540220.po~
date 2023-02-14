@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2022-12-21T16:04:34+00:00\n"
-"PO-Revision-Date: 2023-01-24 22:41+0000\n"
+"PO-Revision-Date: 2023-02-14 15:33+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: pt_BR\n"
@@ -51490,7 +51490,7 @@ msgstr ""
 #: includes/emails/class-wc-email-customer-on-hold-order.php:57
 #: includes/emails/class-wc-email-customer-processing-order.php:59
 msgid "Your {site_title} order has been received!"
-msgstr ""
+msgstr "Seu pedido da {site_title} foi recebido!"
 
 #: includes/emails/class-wc-email-customer-completed-order.php:82
 msgid "Your {site_title} order is now complete"
