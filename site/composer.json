@@ -55,6 +55,7 @@
     "wpackagist-plugin/woo-picpay":">=1.1.5",
     "wpackagist-plugin/woo-cart-abandonment-recovery":">=1.2.7",
     "wpackagist-plugin/woo-payment-discounts":">=1.2.0",
+    "wpackagist-plugin/woocommerce-services":">=1.25.0",
     "wpackagist-plugin/product-blocks":">=1.0.9",
     "wpackagist-plugin/fatal-error-notify":">=1.4.3",
     "wpackagist-plugin/tawkto-live-chat":">=0.5.3",
