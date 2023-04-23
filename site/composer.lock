@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3e708898cd64a05bd040c663e4594aa",
+    "content-hash": "9cded2196f45a185cc5360660f8fd89f",
     "packages": [
         {
             "name": "blade-ui-kit/blade-icons",
@@ -5082,24 +5082,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/schema-and-structured-data-for-wp/"
-        },
-        {
-            "name": "wpackagist-plugin/tawkto-live-chat",
-            "version": "0.7.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/tawkto-live-chat/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tawkto-live-chat.zip?timestamp=1653448304"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/tawkto-live-chat/"
         },
         {
             "name": "wpackagist-plugin/wd-instagram-feed",

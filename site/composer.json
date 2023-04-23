@@ -58,7 +58,6 @@
     "wpackagist-plugin/woocommerce-services":">=1.25.0",
     "wpackagist-plugin/product-blocks":">=1.0.9",
     "wpackagist-plugin/fatal-error-notify":">=1.4.3",
-    "wpackagist-plugin/tawkto-live-chat":">=0.5.3",
     "wpackagist-plugin/mobile-menu":">=2.8.1.8",
     "wpackagist-plugin/query-monitor":">=3.7.1",
     "wpackagist-plugin/wps-hide-login":">=1.5.4.2",
